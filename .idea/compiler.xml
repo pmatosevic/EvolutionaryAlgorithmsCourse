@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hw06-0036505868" />
+        <module name="hw08-0036505868" />
         <module name="hw07-0036505868" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="hw05-0036505868" target="11" />
       <module name="hw06-0036505868" target="11" />
       <module name="hw07-0036505868" target="11" />
+      <module name="hw08-0036505868" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
