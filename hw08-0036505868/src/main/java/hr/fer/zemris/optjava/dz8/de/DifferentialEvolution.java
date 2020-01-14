@@ -24,10 +24,9 @@ public class DifferentialEvolution implements Algorithm {
 
     @Override
     public double[] run(int maxIter, double minErr) {
-        double[][] population = initialize();
-        double[] bestSolution = null;
-        double bestError = Double.POSITIVE_INFINITY;
-        double[][] newPopulation = new double[populationSize][];
+        VectorSolution[] population = initialize();
+        VectorSolution bestSolution = new VectorSolution(null, Double.POSITIVE_INFINITY);
+        VectorSolution[] newPopulation = new VectorSolution[populationSize];
 
         for (int iter = 0; iter < maxIter; iter++) {
             for (int i = 0; i < populationSize; i++) {
@@ -35,11 +34,15 @@ public class DifferentialEvolution implements Algorithm {
                 int r0 = randomSelect(usedNumbers);
                 int r1 = randomSelect(usedNumbers);
                 int r2 = randomSelect(usedNumbers);
+                int r3 = randomSelect(usedNumbers);
+                int r4 = randomSelect(usedNumbers);
 
-                double[] target = population[i];
+                double[] target = population[i].weights;
                 double[] mutant = new double[dimension];
                 for (int d = 0; d < dimension; d++) {
-                    mutant[d] = population[r0][d] + fValue * (population[r1][d] - population[r2][d]);
+                    mutant[d] = population[r0].weights[d]
+                            + fValue * (population[r1].weights[d] - population[r2].weights[d]);
+                            //+ fValue * (population[r3].weights[d] - population[r4].weights[d]);
                 }
 
                 int randCopy = rand.nextInt(dimension);
@@ -52,31 +55,33 @@ public class DifferentialEvolution implements Algorithm {
                     }
                 }
 
-                double targetError = ann.calculateError(target);
-                double trialError = ann.calculateError(trial);
-                if (targetError < trialError) {
-                    newPopulation[i] = target;
+                VectorSolution targetVec = population[i];
+                VectorSolution trialVec = new VectorSolution(trial, ann.calculateError(trial));
+                if (targetVec.error < trialVec.error) {
+                    newPopulation[i] = targetVec;
                 } else {
-                    newPopulation[i] = trial;
-                    if (trialError < bestError) {
-                        bestSolution = trial;
-                        bestError = trialError;
+                    newPopulation[i] = trialVec;
+                    if (trialVec.error < bestSolution.error) {
+                        bestSolution = trialVec;
                     }
                 }
             }
             population = newPopulation;
-            if (bestError < minErr) break;
+            if (bestSolution.error < minErr) break;
         }
 
-        return bestSolution;
+        return bestSolution.weights;
     }
 
-    private double[][] initialize() {
-        double[][] population = new double[populationSize][dimension];
+    private VectorSolution[] initialize() {
+        VectorSolution[] population = new VectorSolution[populationSize];
         for (int i = 0; i < populationSize; i++) {
+            double[] weights = new double[dimension];
             for (int j = 0; j < dimension; j++) {
-                population[i][j] = rand.nextDouble()*2 - 1;
+                weights[j] = rand.nextDouble()*2 - 1;
             }
+            double error = ann.calculateError(weights);
+            population[i] = new VectorSolution(weights, error);
         }
         return population;
     }
@@ -93,6 +98,11 @@ public class DifferentialEvolution implements Algorithm {
     private static class VectorSolution {
         private double[] weights;
         private double error;
+
+        private VectorSolution(double[] weights, double error) {
+            this.weights = weights;
+            this.error = error;
+        }
     }
 
 }

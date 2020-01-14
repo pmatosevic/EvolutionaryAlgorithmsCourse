@@ -15,7 +15,7 @@ public class ANNTrainer {
     private static Random rand = new Random();
 
     private static final double F = 1.5;
-    private static final double CR = 0.1;
+    private static final double CR = 0.01;
     private static final int SAMPLES_LIMIT = 600;
 
     public static void main(String[] args) throws IOException {
