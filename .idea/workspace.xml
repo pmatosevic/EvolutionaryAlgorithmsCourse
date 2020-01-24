@@ -3,82 +3,83 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="hw07-0036505868" />
+      <module name="hw05-0036505868" />
+      <module name="hw04-0036505868" />
       <module name="hw08-0036505868" />
-      <module name="hw06-0036505868" />
+      <module name="hw10-0036505868" />
+      <module name="hw09-0036505868" />
+      <module name="hw11-0036505868" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7f01952-a285-42aa-8742-140e4082eeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/hw08-0036505868.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ANNTrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/Dataset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ann/ANN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ann/ElmanNN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ann/TangensTransferFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ann/TimeDelayedNN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/ann/TransferFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8/de/DifferentialEvolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw09-0036505868/hw09-0036505868.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/hw10-0036505868.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/izlaz-dec.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/izlaz-obj.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/obj-space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/Chromosome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/MOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/NSGAII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/NondominatedSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/SolutionSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/crossover/BasicCrossover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/crossover/BlxAlphaCrossover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/crossover/Crossover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/mutation/BasicMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/mutation/Mutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/problem/FirstProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/problem/MOOPProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10-0036505868/src/main/java/hr/fer/zemris/optjava/dz9/problem/SecondProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/hw11-0036505868.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/kuca-200-133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/art/GrayScaleImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/generic/ga/GASolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/generic/ga/IGAEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/Chromosome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/Pokretac1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/Pokretac2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/crossover/Crossover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/crossover/TwoFoldCrossover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/eval/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/eval/EvaluatorProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/eval/IEvaluatorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/mutation/BasicMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/mutation/Mutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/part1/Algorithm1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/part1/EvaluationThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/part2/Algorithm2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/part2/WorkerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/part2/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/selection/ProportionalSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/dz11/selection/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/EVOThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/IRNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/IRNGProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/RNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/provimpl/ThreadBoundRNGProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/provimpl/ThreadLocalRNGProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr/fer/zemris/optjava/rng/rngimpl/RNGRandomImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/java/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11-0036505868/src/main/resources/rng-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/GreedyAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/IOptAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/RegresijaSustava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/SimulatedAnnealing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/decoder/BitvectorDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/decoder/GreyBinaryDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/decoder/IDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/decoder/NaturalBinaryDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/decoder/PassThroughDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/function/IFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/function/TransferFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/neighborhood/BitvectorNeighborhood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/neighborhood/DoubleArrayNormNeighborHood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/neighborhood/DoubleArrayUnifNeighborHood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/neighborhood/INeighborhood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/solution/BitvectorSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/solution/DoubleArraySolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/solution/SingleObjectiveSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/temperature/GeometricTempSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03-0036505868/target/classes/hr/fer/zemris/optjava/hw03/temperature/ITempSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/Chromosome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/GeneticAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/crossover/BlxAlphaCrossover.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/crossover/Crossover.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/function/IFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/function/TransferFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/mutation/ModificationMutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/mutation/Mutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/selection/RouletteWheelSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/selection/Selection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part1/selection/TournamentSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part2/BoxFilling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part2/Chromosome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part2/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw04-0036505868/target/classes/hr/fer/zemris/optjava/dz4/part2/Packet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/Crossover.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/Mutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/Selection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/BitMutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/Chromosome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/GeneticAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/PointCrossover.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/RandomSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part1/TournamentSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/Chromosome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/FactoriesData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/GeneticAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/OffspringSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/OrderedCrossover.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/PermutingMutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw05-0036505868/target/classes/hr/fer/zemris/optjava/dz5/part2/TournamentSelection.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +104,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -128,22 +130,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/hw08-0036505868/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw08-0036505868/src/main/java/hr/fer/zemris/optjava/dz8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hw11-0036505868/src/main/java/hr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw11-0036505868" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Patrik\Documents\optjava\hw\hw08-0036505868\src\main\java\hr\fer\zemris\optjava\dz8" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hr.fer.zemris.optjava.dz9" />
+      <recent name="hr.fer.zemris.optjava.dz7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="hr.fer.zemris.optjava.dz4.part1" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="hr.fer.zemris.optjava.dz7" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrik\Documents\optjava\hw\hw08-0036505868\src\main\java\hr\fer\zemris\optjava\dz8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,15 +161,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ANNTrainer2">
-    <configuration name="ANNTrainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz7.ANNTrainer" />
-      <module name="hw07-0036505868" />
-      <option name="PROGRAM_PARAMETERS" value="07-iris-formatirano.data clonalg 30 0.01 1000" />
+  <component name="RunManager" selected="Application.Pokretac1">
+    <configuration name="MOOP2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz9.MOOP" />
+      <module name="hw10-0036505868" />
+      <option name="PROGRAM_PARAMETERS" value="2 50 100000" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hr.fer.zemris.optjava.dz7.*" />
+          <option name="PATTERN" value="hr.fer.zemris.optjava.dz9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,14 +177,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ANNTrainer2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz8.ANNTrainer" />
-      <module name="hw08-0036505868" />
-      <option name="PROGRAM_PARAMETERS" value="data.txt elman-1x10x1 30 0.0001 2000" />
+    <configuration name="Pokretac1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz11.Pokretac1" />
+      <module name="hw11-0036505868" />
+      <option name="PROGRAM_PARAMETERS" value="kuca-200-133.png 200 30 10000 10 result.txt result.png" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hr.fer.zemris.optjava.dz8.*" />
+          <option name="PATTERN" value="hr.fer.zemris.optjava.dz11.part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,49 +192,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FFANNTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw07-0036505868" />
+    <configuration name="Pokretac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz11.Pokretac2" />
+      <module name="hw11-0036505868" />
+      <option name="PROGRAM_PARAMETERS" value="kuca-200-133.png 200 40 10000 10 result.txt result.png" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hr.fer.zemris.optjava.dz7.clonalg.*" />
+          <option name="PATTERN" value="hr.fer.zemris.optjava.dz11.eval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hr.fer.zemris.optjava.dz7" />
-      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz7.FFANNTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FFANNTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw07-0036505868" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test1" />
+      <module name="hw11-0036505868" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hr.fer.zemris.optjava.dz7.clonalg.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hr.fer.zemris.optjava.dz7" />
-      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz7.FFANNTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FFANNTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw07-0036505868" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test2" />
+      <module name="hw11-0036505868" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hr.fer.zemris.optjava.dz7.clonalg.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hr.fer.zemris.optjava.dz7" />
-      <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz7.FFANNTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ANNTrainer" />
-      <item itemvalue="Application.ANNTrainer2" />
-      <item itemvalue="JUnit.FFANNTest.test1" />
-      <item itemvalue="JUnit.FFANNTest.test2" />
-      <item itemvalue="JUnit.FFANNTest" />
+      <item itemvalue="Application.MOOP2" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Pokretac1" />
+      <item itemvalue="Application.Pokretac2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ANNTrainer2" />
-        <item itemvalue="Application.ANNTrainer" />
-        <item itemvalue="JUnit.FFANNTest" />
-        <item itemvalue="JUnit.FFANNTest.test2" />
-        <item itemvalue="JUnit.FFANNTest.test1" />
+        <item itemvalue="Application.Pokretac1" />
+        <item itemvalue="Application.Pokretac2" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.MOOP2" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +332,33 @@
       <workItem from="1575538737745" duration="41000" />
       <workItem from="1576624506409" duration="1228000" />
       <workItem from="1576699874325" duration="11807000" />
-      <workItem from="1576746249157" duration="302000" />
+      <workItem from="1576746249157" duration="2768000" />
+      <workItem from="1577031798566" duration="15000" />
+      <workItem from="1578100409676" duration="13826000" />
+      <workItem from="1578486535569" duration="9577000" />
+      <workItem from="1578504510969" duration="75000" />
+      <workItem from="1578507416367" duration="7000" />
+      <workItem from="1578529485766" duration="3535000" />
+      <workItem from="1578558908917" duration="147000" />
+      <workItem from="1578852022211" duration="606000" />
+      <workItem from="1578961879202" duration="715000" />
+      <workItem from="1579101054123" duration="788000" />
+      <workItem from="1579107633977" duration="7936000" />
+      <workItem from="1579120887342" duration="8000" />
+      <workItem from="1579163325186" duration="362000" />
+      <workItem from="1579163980301" duration="9000" />
+      <workItem from="1579165270716" duration="4000" />
+      <workItem from="1579188564108" duration="8000" />
+      <workItem from="1579349579411" duration="279000" />
+      <workItem from="1579350750021" duration="2007000" />
+      <workItem from="1579353202542" duration="571000" />
+      <workItem from="1579353792285" duration="6699000" />
+      <workItem from="1579454786362" duration="605000" />
+      <workItem from="1579652050272" duration="1371000" />
+      <workItem from="1579653442137" duration="3879000" />
+      <workItem from="1579698396433" duration="13000" />
+      <workItem from="1579716877420" duration="19938000" />
+      <workItem from="1579772876789" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Add 6th homework">
       <created>1575331259185</created>
@@ -351,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576624560624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add 8th homework">
+      <created>1576746583773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576746583774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add 9th homework">
+      <created>1578962129460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578962129460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,8 +398,7 @@
     <module name="hw01-0036505868" />
     <module name="hw02-0036505868" />
     <module name="hw03-0036505868" />
-    <module name="hw04-0036505868" />
-    <module name="hw05-0036505868" />
+    <module name="hw06-0036505868" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -381,6 +417,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add 6th homework" />
     <MESSAGE value="Add 7th homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 7th homework" />
+    <MESSAGE value="Add 8th homework" />
+    <MESSAGE value="Add 9th homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 9th homework" />
   </component>
 </project>
