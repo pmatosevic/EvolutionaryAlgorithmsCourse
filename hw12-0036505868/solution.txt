@@ -1,0 +1,1 @@
+Pr2(IfFoodAhead(IfFoodAhead(Move, Pr2(Move, Left)), Pr2(Left, IfFoodAhead(Move, Left))), Pr2(Pr2(Move, Left), IfFoodAhead(Right, Left)))
